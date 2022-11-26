@@ -54,6 +54,18 @@ public class Sentencias {
         for (String nombre : nombres) {
             System.out.println("nombre = " + nombre);
         }
+
+        //ejemplo de bucle etiquetado
+        inicio:
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (i == 1 && j == 1) {
+                    break inicio;
+                }
+                System.out.println("i = " + i + ", j = " + j);
+            }
+        }
+        
     }
 }
 
