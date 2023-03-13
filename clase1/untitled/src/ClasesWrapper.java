@@ -38,8 +38,7 @@ public class ClasesWrapper {
         String numero11 = numero8.toString();
         //convierte a String, con base
         String numero12 = numero8.toString(2);
-        //convierte a entero primitivo, con base
-        int numero13 = numero8.intValue(2);
+
         
 
         
